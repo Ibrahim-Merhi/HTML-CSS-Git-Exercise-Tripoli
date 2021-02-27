@@ -5,4 +5,6 @@ a:link {
     font-weight: bold; }
 .message__time {font-size: 0.9rem;}
 .message--unread {border-left: 3px solid blue;}
-
+.message__time--old{opacity: 0.5;;}
+.messages{line-height: 150%}
+.message{line-height: 300%}
