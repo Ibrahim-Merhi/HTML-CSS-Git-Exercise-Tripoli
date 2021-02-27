@@ -1,6 +1,18 @@
 /* Try different box model properties below */
+body{
+  background-color: hsla(0, 9%, 90%, 0.884);
+}
 .pages__page {
   border: 1px solid #4491db;
   border-radius: 4px;
   background: #fff;
+}
+.country {  width: 300px;
+  border: 1px solid;
+  padding: 5px;
+  margin: 2px;
+background-color: white;}
+
+ul {
+  list-style-type: none;
 }

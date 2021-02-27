@@ -1,1 +1,8 @@
 /* Add your CSS code below */
+a:link {
+    text-decoration: none;
+    color: red;
+    font-weight: bold; }
+.message__time {font-size: 0.9rem;}
+.message--unread {border-left: 3px solid blue;}
+
