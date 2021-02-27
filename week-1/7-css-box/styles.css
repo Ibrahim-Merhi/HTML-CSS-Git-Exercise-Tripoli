@@ -12,4 +12,6 @@ body{
   padding: 5px;
   margin: 2px;
 background-color: white;}
-
+ul {
+  list-style-type: none;
+}
