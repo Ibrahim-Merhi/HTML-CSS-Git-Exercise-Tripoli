@@ -2,32 +2,26 @@
   display: flex;
 }
 /* Add your own CSS code below */
-body{background-color: rgb(31, 26, 65);}
-:is(h1, h2, h3, p) {color: white;}
-ul {
-    list-style-type: none;
-  }
-.countries--first{ 
-  justify-content: space-around;
-  justify-content: right;
-  align-items: flex-start;
-  text-align: center;
-  margin-right: 50%;
- }
-.countries--second{ 
-  flex-direction: row-reverse; 
-  margin-top: 10%;
-  align-items: flex-end;
-  text-align: center;
-  }
-.countries--third{flex-direction: column;
- align-items: flex-end;}
-.countries--fourth{
-  flex-direction: column-reverse;
+.countries.countries--tall.countries--first {
+  display: flex;
+  flex-direction: row;
   align-items: center;
 }
-.country {
-  height: 30px;
-  border: 1px solid rgb(209, 209, 216);
-  padding-top: 8px;
-  background-color: white;}
+.countries.countries--tall.countries--second {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.countries.countries--tall.countries--third {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+}
+.countries.countries--tall.countries--fourth {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-end;
+}
