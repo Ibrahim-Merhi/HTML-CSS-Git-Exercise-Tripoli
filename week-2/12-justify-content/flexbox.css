@@ -7,37 +7,25 @@
 }
 
 /* Add your own CSS code below */
-body{background-color: rgb(31, 26, 65);}
-:is(h1, h2, h3, p) {color: white;}
-ul {
-    list-style-type: none;
-  }
-.countries--first{ 
-  
-    flex-direction:row;
-    justify-content: space-around;
-    justify-content: right;
-    margin-right: 50%;
-    text-align: center;
-    }
-.countries--second{ 
-  justify-content: space-between;
-      flex-direction:row; 
-      text-align: center;
-      }
-.countries--third{display:flex;
-        flex-direction: column;
-        margin-right: 100%;}
-.countries--fourth{
+.countries.countries--first {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.countries.countries--second {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.countries.countries--third {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.countries.countries--fourth {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 300px;
-}
-          
-.country {width:200px;
-      height: 30px;
-      border: 1px solid rgb(209, 209, 216);
-      padding-top: 8px;
-      background-color: white;}
   
+}
