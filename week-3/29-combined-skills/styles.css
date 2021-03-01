@@ -1,1 +1,5 @@
 /* Add your own CSS code below */
+.heart{color: #c85308 ;}
+@media screen and (min-width: 500px){
+    .hero{font-size: 800px;}
+}
